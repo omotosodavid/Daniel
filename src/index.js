@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import Main from "./page/Main";import { BrowserRouter } from "react-router";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h1 className="text-red-500 text-5xl">hello</h1>
+    <BrowserRouter>
+    <Main/>
+    </BrowserRouter>
   </React.StrictMode>
 );
