@@ -1,14 +1,5 @@
-import useFunctions from "../../utils/useFunctions";
+import { stats } from "../../partials/Export";
 const Stats = () => {
-  const { formatYear } = useFunctions();
-  const stats = [
-    {
-      number: `${formatYear()}`,
-      content: "Years of Experience",
-    },
-    { number: 20, content: "Project Completed" },
-    { number: 50, content: "Happy Clients" },
-  ];
   return (
     <section>
       {stats.map((stat, index) => (

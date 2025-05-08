@@ -6,6 +6,12 @@ import bankingDesign from "../asset/Banking-design.svg";
 import bankingApp from "../asset/Banking-app.svg";
 import fitnessApp from "../asset/Fitness-app.svg";
 import dashboard from "../asset/Dashboard.svg";
+import David from "../asset/David.svg";
+import Oluwatimilehin from "../asset/Oluwatimilehin.svg";
+import Ayomipo from "../asset/Ayomipo.svg";
+import Tobiloba from "../asset/Tobiloba.svg";
+import { FaPhone } from "react-icons/fa6";
+import { BiEnvelope } from "react-icons/bi";
 
 export const navs = [
   {
@@ -29,7 +35,14 @@ export const navs = [
     title: "Contact",
   },
 ];
-
+export const stats = [
+  {
+    number: new Date().getFullYear() - 2022,
+    content: "Years of Experience"
+  },
+  { number: 20, content: "Project Completed" },
+  { number: 50, content: "Happy Clients" },
+];
 export const services = [
   {
     image: webDesign,
@@ -61,8 +74,8 @@ export const projects = [
     direction: "row",
     width: "530",
     height: "380",
-    left:8,
-    bottom:12
+    left: 8,
+    bottom: 12,
   },
   {
     title: "Mobile Fittness App",
@@ -73,8 +86,8 @@ export const projects = [
     direction: "row-reverse",
     width: "520",
     height: "390",
-    left:10,
-    bottom:16
+    left: 10,
+    bottom: 16,
   },
   {
     title: "Mobile Banking App",
@@ -85,8 +98,8 @@ export const projects = [
     direction: "row",
     width: "525",
     height: "370",
-    left:10,
-    bottom:16,
+    left: 10,
+    bottom: 16,
   },
   {
     title: "Dashboard",
@@ -97,7 +110,51 @@ export const projects = [
     direction: "row-reverse",
     width: "530",
     height: "370",
-    left:7,
-    bottom:16
+    left: 7,
+    bottom: 16,
+  },
+];
+
+export const reviews = [
+  {
+    image: David,
+    content:
+      "“Working with Daniel was an absolute pleasure. His attention to detail, understanding of user experience, and ability to deliver creative yet functional designs has truly elevated the projects we've worked on together. His seamless collaboration and proactive approach make him an invaluable asset to any team”",
+    name: "Omotoso David",
+    title: "Web developer",
+  },
+  {
+    image: Oluwatimilehin,
+    content:
+      "“Collaborating with Daniel on multiple product cycles has been a game-changer. His design thinking is user-centered, intentional, and incredibly innovative. He doesn't just make things look good — he ensures they work beautifully. His ability to translate complex product requirements into intuitive interfaces made our handoff to developers smoother than ever. Truly one of the most reliable designers I've worked with”",
+    name: "Omotoso Oluwatimilehin",
+    title: "Product manager, Product designer",
+  },
+  {
+    image: Ayomipo,
+    content:
+      "“Daniel's design process is backed by data, and that's something I absolutely appreciate. He actively seeks out insights, asks the right questions, and turns findings into clean, accessible design decisions. Whether it's dashboards or mobile flows, he ensures users actually understand what they're seeing — and that's not easy. It's always a joy syncing design with his level of thoughtfulness.”",
+    name: "Adesanya Ayomipo",
+    title: "Data analyst",
+  },
+  {
+    image: Tobiloba,
+    content:
+      "What sets Daniel apart as a designer is his ability to think like a PM. He gets product strategy, understands priorities, and designs for impact. From ideation to final prototype, he brings clarity and intentionality. Working with him has been seamless — he listens, adapts fast, and always delivers high-quality work that speaks for itself.",
+    name: "Adesanya Tobiloba",
+    title: "Product manager",
+  },
+];
+
+export const contacts = [
+  {
+    icon: <FaPhone />,
+    title: "Phone",
+    content: "+234 8149 162 437",
+  },
+  {
+    icon: <BiEnvelope/>,
+    title: "Email",
+    content: "danielomotoso52@gmail.com",
   },
 ];
