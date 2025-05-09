@@ -2,11 +2,11 @@ import { Link } from "react-router";
 import {navs} from "../Export"
 const NavLinks = () => {
   return (
-    <ul>
+    <ul className="flex justify-between w-96">
       {navs.map((nav, index) => (
         <li key={index}>
           <Link
-            className="hover:text-white duration-150 text-[#5A5A5A]"
+            className="hover:text-white duration-150 text-[#888888] font-medium"
             to={nav.link}
           >
             {nav.title}
