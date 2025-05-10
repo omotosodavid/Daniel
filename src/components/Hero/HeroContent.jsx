@@ -9,7 +9,7 @@ const HeroContent = () => {
       </div>
       <div className="grid gap-y-2">
         <h2 className="text-5xl">Hello</h2>
-        <h3 className="text-3xl">I am Daniel</h3>
+        <h4 className="text-2xl">I am Daniel</h4>
         <h1 className="text-7xl bg-gradient-to-r from-[#3109C3] to-[#098FD3] bg-clip-text text-transparent h-[5.3rem]">Product designer</h1>
       </div>
       <div className="mt-4">
