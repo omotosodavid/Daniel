@@ -51,7 +51,7 @@ export const services = [
   {
     image: mobileDesign,
     skill: "Mobile design",
-    position: "",
+    position: "top-6",
   },
   {
     image: uxDesign,
@@ -60,7 +60,7 @@ export const services = [
   {
     image: uiDesign,
     skill: "Ui design",
-    position: "",
+    position: "bottom-6",
   },
 ];
 

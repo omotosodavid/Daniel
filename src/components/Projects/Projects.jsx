@@ -4,11 +4,16 @@ import ProjectImage from "./ProjectImage";
 
 const Projects = () => {
   return (
-    <section>
-      <h3>My Recent Works</h3>
-      <section>
+    <section className="w-[75rem] mx-auto pt-12">
+      <h3 className="text-white text-4xl text-center font-medium">
+        My Recent Works
+      </h3>
+      <section className="mt-20 grid gap-y-10">
         {projects.map((project, index) => (
-          <div key={index}>
+          <div
+            className={`flex flex-${project.direction} items-center justify-between`}
+            key={index}
+          >
             <ProjectContent
               No={index + 1}
               title={project.title}
@@ -26,6 +31,11 @@ const Projects = () => {
           </div>
         ))}
       </section>
+      <div className="mt-24 mb-14 grid place-content-center">
+        <button className="bg-[#948D8D] rounded-2xl py-4 px-14 text-2xl">
+          View All
+        </button>
+      </div>
     </section>
   );
 };
