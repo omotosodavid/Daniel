@@ -3,7 +3,7 @@ import ServicesIllustration from "./ServicesIllustration";
 
 const Services = () => {
   return (
-    <section className="bg-[#01181e] py-9">
+    <section id="service" className="bg-[#01181e] py-9">
       <section className="w-[75rem] mx-auto">
         <div className="grid gap-y-5 text-white text-center mb-10">
           <h2 className="text-5xl bg-gradient-to-r from-[#064152] to-[#9DC5FA] bg-clip-text text-transparent h-14 text-center font-semibold">
