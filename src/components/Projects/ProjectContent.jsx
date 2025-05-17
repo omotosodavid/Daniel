@@ -1,6 +1,6 @@
 const ProjectContent = ({No, title, content}) => {
   return (
-    <div className="w-[32rem] font-medium">
+    <div className="md:w-[32rem] font-medium">
       <h6 class="flex items-center gap-x-2 text-white mb-6 text-xl">
         <span class=" block h-[2px] w-7 bg-[#616161]"></span>Project {No}
       </h6>

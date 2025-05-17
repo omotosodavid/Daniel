@@ -1,7 +1,7 @@
 const HireMe = () => {
   return (
-    <section className="w-1/3 text-white font-medium grid gap-y-4">
-      <h4 className="text-2xl">Why Hire Me for Next Project</h4>
+    <section className="lg:w-1/3 text-white font-medium grid gap-y-4">
+      <h4 className="text-2xl lg:text-start text-center">Why Hire Me for Next Project</h4>
       <p className="text-[#959595]">
         I'm Daniel, a freelance designer with {new Date().getFullYear() - 2022} years of experience specializing
         in UI/UX design, user research, and prototyping. I've had the pleasure
