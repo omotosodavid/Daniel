@@ -9,7 +9,7 @@ import Header from "../partials/navigation/Header";
 
 const Main = () => {
   return (
-    <main className="bg-[#03313e]">
+    <main className="bg-[#03313e] relative">
       <Header />
       <Hero />
       <Stats />

@@ -5,14 +5,14 @@ import ProjectImage from "./ProjectImage";
 const Projects = () => {
   return (
     <section id="portfolio" className="relative overflow-clip">
-      <section className="w-[75rem] mx-auto pt-12">
+      <section className="xl:w-[75rem] mx-auto pt-12 xl:px-0 px-4">
         <h3 className="text-white text-4xl text-center font-medium">
           My Recent Works
         </h3>
-        <section className="mt-20 grid gap-y-10">
+        <section className="mt-20 grid lg:gap-y-10 gap-y-20">
           {projects.map((project, index) => (
             <div
-              className={`flex flex-${project.direction} items-center justify-between`}
+              className={`flex flex-${project.direction} flex-wrap items-center lg:justify-between justify-center gap-y-10`}
               key={index}
             >
               <ProjectContent

@@ -1,7 +1,7 @@
 import { stats } from "../../partials/Export";
 const Stats = () => {
   return (
-    <section className="w-[55rem] mx-auto flex justify-between items-center mt-16 mb-12 text-white ">
+    <section className="lg:w-[55rem] mx-auto xl:px-0 px-4 flex flex-wrap gap-5 sm:justify-between justify-center items-center mt-16 mb-12 text-white ">
       {stats.map((stat, index) => (
         <div className="flex items-center" key={index}>
           <h1 className="text-7xl font-bold">{stat.number}<span className="text-[#C5BCBC]">+</span></h1>

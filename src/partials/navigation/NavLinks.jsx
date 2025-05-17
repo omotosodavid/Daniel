@@ -1,7 +1,7 @@
 import { navs } from "../Export";
 const NavLinks = () => {
   return (
-    <ul className="flex justify-between w-96">
+    <ul className="flex md:flex-row flex-col h-4/6 md:h-fit justify-between w-96">
       {navs.map((nav, index) => (
         <li key={index}>
           <a
