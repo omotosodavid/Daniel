@@ -1,6 +1,6 @@
 import { projects } from "../../partials/Export";
+import ImageComponent from "../../partials/ImageComponent";
 import ProjectContent from "./ProjectContent";
-import ProjectImage from "./ProjectImage";
 
 const Projects = () => {
   return (
@@ -9,7 +9,7 @@ const Projects = () => {
         <h3 className="text-white text-4xl text-center font-medium">
           My Recent Works
         </h3>
-        <section className="mt-20 grid lg:gap-y-10 gap-y-20">
+        <section className="mt-20 grid lg:gap-y-10 gap-y-20 z-10 relative">
           {projects.map((project, index) => (
             <div
               className={`flex flex-${project.direction} flex-wrap items-center lg:justify-between justify-center gap-y-10`}
@@ -20,15 +20,7 @@ const Projects = () => {
                 title={project.title}
                 content={project.content}
               />
-              <ProjectImage
-                img={project.image}
-                alt={project.title}
-                height={project.height}
-                width={project.width}
-                left={project.left}
-                bottom={project.bottom}
-                deg={project.deg}
-              />
+              <ImageComponent image={project.image} alt={project.title} />
             </div>
           ))}
         </section>
@@ -37,7 +29,7 @@ const Projects = () => {
             View All
           </button>
         </div>
-      </section>{" "}
+      </section>
       <div className="absolute top-[40rem] -right-20 border-white border-[2.5rem] p-14 rounded-full"></div>
       <div className="absolute top-[70rem] -left-24 border-white border-[2.5rem] p-14 rounded-full"></div>
       <div className="absolute top-[110rem] -right-24 border-white border-[2.5rem] p-14 rounded-full"></div>
