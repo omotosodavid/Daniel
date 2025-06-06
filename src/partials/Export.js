@@ -69,19 +69,15 @@ export const projects = [
     title: "Mobile Banking design",
     content:
       "Designed an intuitive mobile banking app focused on user-friendly navigation, secure transactions, and seamless account management, ensuring a smooth and efficient banking experience for users",
-    deg: -8,
+    
     image: bankingDesign,
     direction: "row",
-    width: "530",
-    height: "380",
-    left: 8,
-    bottom: 12,
   },
   {
     title: "Mobile Fittness App",
     content:
       "Developed a secure and user-friendly mobile banking app, enabling effortless account management, transactions, and financial tracking.",
-    deg: 10,
+    
     image: fitnessApp,
     direction: "row-reverse",
     width: "520",
@@ -93,7 +89,7 @@ export const projects = [
     title: "Mobile Banking App",
     content:
       "Designing seamless mobile banking experiences that prioritize simplicity, trust, and user empowerment. From intuitive navigation to secure transactions, the focus is on making finance feel less complex and more personal",
-    deg: -7,
+    
     image: bankingApp,
     direction: "row",
     width: "525",
@@ -105,7 +101,7 @@ export const projects = [
     title: "Dashboard",
     content:
       "Crafted a visually intuitive dashboard for data visualization, offering users clear insights and streamlined decision-making tools.",
-    deg: 7,
+  
     image: dashboard,
     direction: "row-reverse",
     width: "530",

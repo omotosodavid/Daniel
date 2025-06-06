@@ -29,8 +29,8 @@ const Header = () => {
         className={`md:flex md:flex-row flex-col h-3/4 md:h-fit ${
         mobileNav? "flex" : "hidden" } justify-between md:items-center lg:w-[70%] md:w-4/5 w-full`}
       >
-        <NavLinks />
-        <Button />
+        <NavLinks mobileNav={() => setMobileNav(false)} />
+        <Button mobileNav={() => setMobileNav(false)}/>
       </nav>
      
     </header>
