@@ -24,11 +24,14 @@ const Projects = () => {
             </div>
           ))}
         </section>
-        <div className="mt-24 mb-14 grid place-content-center">
-          <button className="bg-[#948D8D] rounded-2xl py-4 px-10 text-xl">
-            View All
-          </button>
-        </div>
+        <button className="mt-24 mb-14 grid place-items-center w-full">
+            <a
+              href="https://www.behance.net/omotoso-daniel"
+              className="bg-[#948D8D] rounded-2xl py-3 px-8 text-xl hover:scale-95 duration-200"
+            >
+              View All
+            </a>
+        </button>
       </section>
       <div className="absolute top-[40rem] -right-20 border-white border-[2.5rem] p-14 rounded-full"></div>
       <div className="absolute top-[70rem] -left-24 border-white border-[2.5rem] p-14 rounded-full"></div>

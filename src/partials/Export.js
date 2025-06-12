@@ -115,14 +115,14 @@ export const reviews = [
   {
     image: David,
     content:
-      "“Working with Daniel was an absolute pleasure. His attention to detail, understanding of user experience, and ability to deliver creative yet functional designs has truly elevated the projects we've worked on together. His seamless collaboration and proactive approach make him an invaluable asset to any team”",
+      "“Working with Daniel has been a pleasure. His attention to detail, strong grasp of user experience, and ability to create designs that are both visually appealing and highly functional significantly improved our projects. He’s a proactive communicator, a seamless collaborator, and consistently reliable. Daniel isn’t just a designer — he’s a true asset to any creative or product-driven team.”",
     name: "Omotoso David",
     title: "Web developer",
   },
   {
     image: Oluwatimilehin,
     content:
-      "“Collaborating with Daniel on multiple product cycles has been a game-changer. His design thinking is user-centered, intentional, and incredibly innovative. He doesn't just make things look good — he ensures they work beautifully. His ability to translate complex product requirements into intuitive interfaces made our handoff to developers smoother than ever. Truly one of the most reliable designers I've worked with”",
+      "“Collaborating with Daniel on multiple product cycles has been a game-changer. His design thinking is user-centered, intentional, and innovative. He doesn’t just make things look good — he ensures they function seamlessly. Daniel translates complex product needs into intuitive interfaces, making developer handoffs smooth. He’s one of the most reliable, thoughtful designers I’ve worked with.”",
     name: "Omotoso Oluwatimilehin",
     title: "Product manager, Product designer",
   },
@@ -136,7 +136,7 @@ export const reviews = [
   {
     image: Tobiloba,
     content:
-      "What sets Daniel apart as a designer is his ability to think like a PM. He gets product strategy, understands priorities, and designs for impact. From ideation to final prototype, he brings clarity and intentionality. Working with him has been seamless — he listens, adapts fast, and always delivers high-quality work that speaks for itself.",
+      "“Daniel stands out as a designer because he thinks like a product manager. He understands strategy, prioritizes effectively, and designs with purpose. From ideation to prototype, he brings clarity and intent. He listens well, adapts quickly, and consistently delivers high-impact, polished work. Collaborating with him is seamless, and his results always speak for themselves.”",
     name: "Adesanya Tobiloba",
     title: "Product manager",
   },
@@ -147,10 +147,12 @@ export const contacts = [
     icon: <FaPhone />,
     title: "Phone",
     content: "+234 8149 162 437",
+    type: "tel"
   },
   {
     icon: <BiEnvelope/>,
     title: "Email",
     content: "danielomotoso52@gmail.com",
+    type:"mailto"
   },
 ];
